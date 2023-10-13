@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "patterns-oo"
+version = "0.1.0"
+description = ""
+authors = ["Luciano Filho <lvgalvaofilho@gmail.com>"]
+readme = "README.md"
+packages = [{include = "patterns_oo"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mypy = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
